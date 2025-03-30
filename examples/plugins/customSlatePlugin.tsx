@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { ColorPickerField } from '@promopixel/editor';
-import { pluginFactories } from '@promopixel/plugins-slate';
+import { pluginFactories } from '@promopixel/plugins-slate2';
 import React from 'react';
 
 export default pluginFactories.createComponentPlugin<{
@@ -12,7 +13,7 @@ export default pluginFactories.createComponentPlugin<{
   icon: <span>Color</span>, // an icon to show
   label: 'Set Color',
   Component: 'span', // the component to render
-  getStyle: ({ color }) => ({ color }),
+  getStyle: ({ color }: { color: string }) => ({ color }),
   controls: {
     // identical to custom cell plugins
     type: 'autoform',

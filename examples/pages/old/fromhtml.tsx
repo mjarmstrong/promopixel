@@ -1,6 +1,6 @@
 import type { Cell, Value, Value_v0 } from '@promopixel/editor';
 import Editor, { migrateValue } from '@promopixel/editor';
-import type { SlateCellPlugin } from '@promopixel/plugins-slate';
+import type { SlateCellPlugin } from '@promopixel/plugins-slate2';
 import type { GetStaticProps } from 'next';
 
 import React, { useState } from 'react';

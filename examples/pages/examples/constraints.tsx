@@ -5,13 +5,13 @@ import type { CellPlugin, Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
 
 // The rich text area plugin
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 // image
 import image from '@promopixel/plugins-image';
 import PageLayout from '../../components/PageLayout';
 // Stylesheets for the rich text area plugin
 // uncomment this
-//import '@promopixel/plugins-slate/lib/index.css';
+//import '@promopixel/plugins-slate2/lib/index.css';
 
 // Stylesheets for the imagea plugin
 //import '@promopixel/plugins-image/lib/index.css';

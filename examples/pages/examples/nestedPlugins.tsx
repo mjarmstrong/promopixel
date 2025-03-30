@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from 'react';
 
 // The editor core
@@ -5,7 +6,7 @@ import type { CellPlugin, Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
 
 // The rich text area plugin
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 // image
 import image from '@promopixel/plugins-image';
 import PageLayout from '../../components/PageLayout';
@@ -17,7 +18,7 @@ const simpleSlate = slate((def) => ({
   title: 'reduced slate',
   plugins: {
     headings: {
-      h3: def.plugins.headings.h3((d) => ({
+      h3: def.plugins.headings.h3((d: any) => ({
         ...d,
         getStyle: () => ({ color: 'red' }),
       })),

@@ -8,7 +8,7 @@ import Editor, { createValue } from '@promopixel/editor';
 // import '@promopixel/editor/lib/index.css';
 
 // The rich text area plugin
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 
 import PageLayout from '../../components/PageLayout';
 

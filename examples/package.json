@@ -26,7 +26,7 @@
     "@promopixel/plugins-divider": "0.0.0",
     "@promopixel/plugins-html5-video": "0.0.0",
     "@promopixel/plugins-image": "0.0.0",
-    "@promopixel/plugins-slate": "0.0.0",
+    "@promopixel/plugins-slate2": "0.0.0",
     "@promopixel/plugins-spacer": "0.0.0",
     "@promopixel/plugins-video": "0.0.0",
     "@promopixel/react-admin": "0.0.0",

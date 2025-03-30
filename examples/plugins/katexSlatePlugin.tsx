@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
-import { pluginFactories } from '@promopixel/plugins-slate';
+import { pluginFactories } from '@promopixel/plugins-slate2';
 
 import dynamic from 'next/dynamic';
 

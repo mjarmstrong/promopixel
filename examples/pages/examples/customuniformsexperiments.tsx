@@ -5,7 +5,7 @@ import { AutoFields, ColorPickerField } from '@promopixel/editor';
 import type { Value, CellPlugin } from '@promopixel/editor';
 import Editor, { createValue } from '@promopixel/editor';
 
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 
 import PageLayout from '../../components/PageLayout';
 import { Button } from '@mui/material';

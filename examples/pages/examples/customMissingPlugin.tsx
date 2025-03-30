@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { Options, Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 import image from '@promopixel/plugins-image';
 import { demo } from '../../sampleContents/demo';
 import { Button } from '@mui/material';

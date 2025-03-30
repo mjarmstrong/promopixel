@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from 'react';
 
 // The editor core
@@ -6,16 +7,16 @@ import { createValue } from '@promopixel/editor';
 import { Button } from '@mui/material';
 import Editor from '@promopixel/editor';
 
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 
-import { pluginFactories } from '@promopixel/plugins-slate';
+import { pluginFactories } from '@promopixel/plugins-slate2';
 import PageLayout from '../../components/PageLayout';
 
 const formFieldPlugin = pluginFactories.createComponentPlugin<{
   fieldName: string;
   placeholder: string;
 }>({
-  Component: (props) => {
+  Component: (props: any) => {
     return (
       <input
         placeholder={props.placeholder}

@@ -1,7 +1,7 @@
 // The editor core
 import type { Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
-import slate, { pluginFactories } from '@promopixel/plugins-slate';
+import slate, { pluginFactories } from '@promopixel/plugins-slate2';
 import React, { useState } from 'react';
 import PageLayout from '../../components/PageLayout';
 

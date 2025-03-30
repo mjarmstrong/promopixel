@@ -13,7 +13,7 @@ import '@promopixel/plugins-html5-video/lib/index.css';
 import '@promopixel/plugins-spacer/lib/index.css';
 import '@promopixel/plugins-video/lib/index.css';
 import '@promopixel/plugins-image/lib/index.css';
-import '@promopixel/plugins-slate/lib/index.css';
+import '@promopixel/plugins-slate2/lib/index.css';
 import 'katex/dist/katex.min.css';
 import type { AppProps } from 'next/app';
 

@@ -5,7 +5,7 @@ import Editor, {
   AutoFields,
   makeUniformsSchema,
 } from '@promopixel/editor';
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 import image from '@promopixel/plugins-image';
 import customLayout from '../../plugins/customLayoutPluginWithCellSpacing';
 import PageLayout from '../../components/PageLayout';

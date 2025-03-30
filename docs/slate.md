@@ -5,15 +5,15 @@ An advanced rich text editor (RTE) based on [slate](http://slatejs.org) is used 
 It has to be installed separately:
 
 ```bash
-$ yarn add @promopixel/plugins-slate
+$ yarn add @promopixel/plugins-slate2
 # OR
-$ npm i --save @promopixel/plugins-slate
+$ npm i --save @promopixel/plugins-slate2
 ```
 
 You additionally need to import the css file:
 
 ```typescript
-import '@promopixel/plugins-slate/lib/index.css';
+import '@promopixel/plugins-slate2/lib/index.css';
 ```
 
 <p>
@@ -52,8 +52,8 @@ In this example, only some of the inbuilt Slate plugins are being enabled:
 
 ```tsx
 import Editor from '@promopixel/editor';
-import slate from '@promopixel/plugins-slate';
-import '@promopixel/plugins-slate/lib/index.css';
+import slate from '@promopixel/plugins-slate2';
+import '@promopixel/plugins-slate2/lib/index.css';
 
 const myCustomSlatePlugin = slate(def => ({
   ...def, // this is the default configuration
@@ -82,7 +82,7 @@ one can now do:
 const cellPlugins = [myCustomSlatePlugin(), image];
 ```
 
-Note: the default export of `@promopixel/plugins-slate` is a function that returns a `CellPlugin`. When called without any argument, it will use the default configuration. if you pass a callback function, it will use the configuration you return from that function. This callback function will receive the default configuration. This way you can return the default configuration and alter it as in the example above (using object spread).
+Note: the default export of `@promopixel/plugins-slate2` is a function that returns a `CellPlugin`. When called without any argument, it will use the default configuration. if you pass a callback function, it will use the configuration you return from that function. This callback function will receive the default configuration. This way you can return the default configuration and alter it as in the example above (using object spread).
 
 ### Example 2: Customize the inbuilt slate plugins
 
@@ -125,7 +125,7 @@ Enhancing the inbuilt slate plugins may not be enough in some cases. Eg:
 Add a custom plugin as follows:
 
 ```tsx
-import slate from '@promopixel/plugins-slate';
+import slate from '@promopixel/plugins-slate2';
 
 const slatePlugin = slate(def => ({
   ...def,
@@ -151,7 +151,7 @@ Use the factory functions:
   you can import these with:
 
 ```tsx
-import { pluginFactories } from '@promopixel/plugins-slate';
+import { pluginFactories } from '@promopixel/plugins-slate2';
 ```
 
 ### component plugins

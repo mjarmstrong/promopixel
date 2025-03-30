@@ -11,9 +11,9 @@ $ npm i --save @promopixel/editor
 usually you'll also want to have the default rich text editor (slate):
 
 ```bash
-$ yarn add @promopixel/plugins-slate
+$ yarn add @promopixel/plugins-slate2
 # OR
-$ npm i --save @promopixel/plugins-slate
+$ npm i --save @promopixel/plugins-slate2
 ```
 
 ## Dependencies
