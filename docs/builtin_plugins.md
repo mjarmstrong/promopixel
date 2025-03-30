@@ -23,7 +23,7 @@ export const cellPlugins = [
 
 ### Installing
 
-This plugin is a separate package: [@react-page/plugins-spacer](https://www.npmjs.com/package/@react-page/plugins-spacer)
+This plugin is a separate package: [@promopixel/plugins-spacer](https://www.npmjs.com/package/@promopixel/plugins-spacer)
 
 -----------------------------
 
@@ -44,7 +44,7 @@ export const cellPlugins = [
 
 ### Installing
 
-This plugin is a separate package: [@react-page/plugins-divider](https://www.npmjs.com/package/@react-page/plugins-divider)
+This plugin is a separate package: [@promopixel/plugins-divider](https://www.npmjs.com/package/@promopixel/plugins-divider)
 
 -----------------------------
 
@@ -95,7 +95,7 @@ function uploadImageShim(defaultUrl) {
 
 ### Installing
 
-This plugin is a separate package: [@react-page/plugins-image](https://www.npmjs.com/package/@react-page/plugins-image)
+This plugin is a separate package: [@promopixel/plugins-image](https://www.npmjs.com/package/@promopixel/plugins-image)
 
 -----------------------------
 
@@ -135,7 +135,7 @@ The `enabledModes` setting controls the 3 tabs on the background plugin, enablin
 
 ### Installing
 
-This plugin is a separate package: [@react-page/plugins-background](https://www.npmjs.com/package/@react-page/plugins-background)
+This plugin is a separate package: [@promopixel/plugins-background](https://www.npmjs.com/package/@promopixel/plugins-background)
 
 
 

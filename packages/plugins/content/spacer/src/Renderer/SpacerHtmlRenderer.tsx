@@ -1,5 +1,5 @@
-import type { CellPluginComponentProps } from '@react-page/editor';
-import { lazyLoad } from '@react-page/editor';
+import type { CellPluginComponentProps } from '@promopixel/editor';
+import { lazyLoad } from '@promopixel/editor';
 
 import React from 'react';
 import type { SpacerState } from '../types/state';

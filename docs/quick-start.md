@@ -1,26 +1,26 @@
 ## Installation
 
-To install the react-page editor, use:
+To install the promopixel editor, use:
 
 ```bash
-$ yarn add @react-page/editor
+$ yarn add @promopixel/editor
 # OR
-$ npm i --save @react-page/editor
+$ npm i --save @promopixel/editor
 ```
 
 usually you'll also want to have the default rich text editor (slate):
 
 ```bash
-$ yarn add @react-page/plugins-slate
+$ yarn add @promopixel/plugins-slate
 # OR
-$ npm i --save @react-page/plugins-slate
+$ npm i --save @promopixel/plugins-slate
 ```
 
 ## Dependencies
 
 **IMPORTANT**: use react 17 at the moment, react 18 is not yet supported. Follow this milestone: https://github.com/react-page/react-page/milestone/14
 
-React-page uses [MUI](https://mui.com/) for the Editor UI. It is lazy loaded and do not directly increase your bundle size.
+promopixel uses [MUI](https://mui.com/) for the Editor UI. It is lazy loaded and do not directly increase your bundle size.
 
 If you want to override the theme, please add these packages as well: `@emotion/react`, `@emotion/styled`
 
@@ -33,7 +33,7 @@ $ npm i --save @emotion/react @emotion/styled
 Make sure to import the css file as well somewhere in your app:
 
 ```
-import '@react-page/editor/lib/index.css';
+import '@promopixel/editor/lib/index.css';
 ```
 
 ## Using material-ui 4 in parallel

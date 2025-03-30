@@ -1,10 +1,10 @@
-import type { Value } from '@react-page/editor';
+import type { Value } from '@promopixel/editor';
 import Editor, {
   useInsertNew,
   useSetPreviewMode,
   useSetEditMode,
   useUndo,
-} from '@react-page/editor';
+} from '@promopixel/editor';
 
 import React, { useState } from 'react';
 import PageLayout from '../../components/PageLayout';

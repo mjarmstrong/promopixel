@@ -1,5 +1,5 @@
-import type { CellPlugin } from '@react-page/editor';
-import { lazyLoad } from '@react-page/editor';
+import type { CellPlugin } from '@promopixel/editor';
+import { lazyLoad } from '@promopixel/editor';
 import React from 'react';
 import { defaultSettings } from './default/settings';
 

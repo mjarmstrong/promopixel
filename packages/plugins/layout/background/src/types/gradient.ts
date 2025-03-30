@@ -1,4 +1,4 @@
-import type { RGBColor } from '@react-page/editor';
+import type { RGBColor } from '@promopixel/editor';
 
 export type Gradient = {
   opacity: number;

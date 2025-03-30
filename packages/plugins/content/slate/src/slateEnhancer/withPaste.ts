@@ -1,4 +1,4 @@
-import { objIsNode } from '@react-page/editor';
+import { objIsNode } from '@promopixel/editor';
 import type { Editor } from 'slate';
 import { Transforms } from 'slate';
 

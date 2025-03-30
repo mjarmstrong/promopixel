@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { AutoFields } from '@react-page/editor';
+import { AutoFields } from '@promopixel/editor';
 // The editor core
-import type { Value, CellPlugin } from '@react-page/editor';
-import Editor, { createValue } from '@react-page/editor';
+import type { Value, CellPlugin } from '@promopixel/editor';
+import Editor, { createValue } from '@promopixel/editor';
 
 // import the main css, uncomment this: (this is commented in the example because of https://github.com/vercel/next.js/issues/19717)
-// import '@react-page/editor/lib/index.css';
+// import '@promopixel/editor/lib/index.css';
 
 // The rich text area plugin
-import slate from '@react-page/plugins-slate';
+import slate from '@promopixel/plugins-slate';
 
 import PageLayout from '../../components/PageLayout';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import type { RGBColor } from '@react-page/editor';
-import { ColorPicker } from '@react-page/editor';
+import type { RGBColor } from '@promopixel/editor';
+import { ColorPicker } from '@promopixel/editor';
 import type { BackgroundProps } from '../../types/component';
 
 export interface ColorComponentProps {

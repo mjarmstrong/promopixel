@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 
 // The editor core
-import type { CellPlugin, Value } from '@react-page/editor';
-import Editor from '@react-page/editor';
+import type { CellPlugin, Value } from '@promopixel/editor';
+import Editor from '@promopixel/editor';
 
 // The rich text area plugin
-import slate from '@react-page/plugins-slate';
+import slate from '@promopixel/plugins-slate';
 // image
-import image from '@react-page/plugins-image';
+import image from '@promopixel/plugins-image';
 import PageLayout from '../../components/PageLayout';
 // Stylesheets for the rich text area plugin
 // uncomment this
-//import '@react-page/plugins-slate/lib/index.css';
+//import '@promopixel/plugins-slate/lib/index.css';
 
 // Stylesheets for the imagea plugin
-//import '@react-page/plugins-image/lib/index.css';
+//import '@promopixel/plugins-image/lib/index.css';
 
 // Define which plugins we want to use.
 

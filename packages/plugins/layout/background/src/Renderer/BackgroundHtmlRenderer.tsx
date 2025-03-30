@@ -1,4 +1,4 @@
-import { colorToString } from '@react-page/editor';
+import { colorToString } from '@promopixel/editor';
 import type { FC, PropsWithChildren } from 'react';
 import React from 'react';
 import { ModeEnum } from '../types/ModeEnum';

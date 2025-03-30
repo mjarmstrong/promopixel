@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
-import { AutoFields, ColorPickerField } from '@react-page/editor';
+import { AutoFields, ColorPickerField } from '@promopixel/editor';
 // The editor core
-import type { Value, CellPlugin } from '@react-page/editor';
-import Editor, { createValue } from '@react-page/editor';
+import type { Value, CellPlugin } from '@promopixel/editor';
+import Editor, { createValue } from '@promopixel/editor';
 
-import slate from '@react-page/plugins-slate';
+import slate from '@promopixel/plugins-slate';
 
 import PageLayout from '../../components/PageLayout';
 import { Button } from '@mui/material';

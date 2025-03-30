@@ -1,7 +1,7 @@
 import React from 'react';
-import type { CellPlugin, Value } from '@react-page/editor';
-import Editor, { createValue } from '@react-page/editor';
-import slate from '@react-page/plugins-slate';
+import type { CellPlugin, Value } from '@promopixel/editor';
+import Editor, { createValue } from '@promopixel/editor';
+import slate from '@promopixel/plugins-slate';
 
 import PageLayout from '../../components/PageLayout';
 

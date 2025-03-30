@@ -1,4 +1,4 @@
-import Editor from '@react-page/editor';
+import Editor from '@promopixel/editor';
 import React from 'react';
 
 export default function ReadOnlyBareEmpty() {

@@ -1,4 +1,4 @@
-import { deepEquals } from '@react-page/editor';
+import { deepEquals } from '@promopixel/editor';
 import type { FC, PropsWithChildren } from 'react';
 
 import React, { useCallback, useEffect, useMemo } from 'react';

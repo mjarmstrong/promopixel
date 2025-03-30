@@ -1,4 +1,4 @@
-import { lazyLoad } from '@react-page/editor';
+import { lazyLoad } from '@promopixel/editor';
 import React from 'react';
 import { ConditionalWrapper } from './ConditionalWrapper';
 import { useTheme } from '@mui/material';

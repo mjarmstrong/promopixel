@@ -1,7 +1,11 @@
 {
-  "name": "@react-page/plugins-html5-video",
+  "name": "@promopixel/plugins-html5-video",
   "version": "0.0.0",
   "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "dist"
+  ],
   "module": "./lib-es/index.js",
   "sideEffects": false,
   "typings": "./lib/index.d.ts",
@@ -24,7 +28,7 @@
     "@mui/material": "*"
   },
   "dependencies": {
-    "@react-page/editor": "0.0.0"
+    "@promopixel/editor": "0.0.0"
   },
   "publishConfig": {
     "access": "public"

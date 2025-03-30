@@ -1,5 +1,5 @@
 import React from 'react';
-import { pluginFactories } from '@react-page/plugins-slate';
+import { pluginFactories } from '@promopixel/plugins-slate';
 
 import dynamic from 'next/dynamic';
 

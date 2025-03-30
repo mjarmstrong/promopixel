@@ -1,4 +1,4 @@
-import { useUiTranslator } from '@react-page/editor';
+import { useUiTranslator } from '@promopixel/editor';
 import React, { useCallback, useState } from 'react';
 import { Range } from 'slate';
 import { useSlate } from 'slate-react';

@@ -1,5 +1,5 @@
-import type { Options, Value, Value_v0 } from '@react-page/editor';
-import Editor from '@react-page/editor';
+import type { Options, Value, Value_v0 } from '@promopixel/editor';
+import Editor from '@promopixel/editor';
 
 import React, { useState } from 'react';
 import PageLayout from '../../components/PageLayout';

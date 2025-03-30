@@ -1,4 +1,4 @@
-import type { DataTType } from '@react-page/editor';
+import type { DataTType } from '@promopixel/editor';
 import { useEffect, useState } from 'react';
 import { useSlate } from 'slate-react';
 import type { SlatePluginDefinition } from '../types/slatePluginDefinitions';

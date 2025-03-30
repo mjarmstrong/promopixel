@@ -1,6 +1,6 @@
 import React from 'react';
 import type { VideoSettings } from '../types/settings';
-import { lazyLoad } from '@react-page/editor';
+import { lazyLoad } from '@promopixel/editor';
 
 const PlayArrow = lazyLoad(() => import('@mui/icons-material/PlayArrow'));
 

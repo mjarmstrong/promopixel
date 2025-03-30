@@ -1,4 +1,4 @@
-import type { CellPlugin, ImageUploadType, RGBColor } from '@react-page/editor';
+import type { CellPlugin, ImageUploadType, RGBColor } from '@promopixel/editor';
 
 import type { BackgroundControlsProps } from './controls';
 import type { ModeEnum } from './ModeEnum';

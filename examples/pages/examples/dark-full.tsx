@@ -1,6 +1,6 @@
-import type { Value } from '@react-page/editor';
-import { defaultThemeOptions } from '@react-page/editor';
-import Editor from '@react-page/editor';
+import type { Value } from '@promopixel/editor';
+import { defaultThemeOptions } from '@promopixel/editor';
+import Editor from '@promopixel/editor';
 import { demo } from '../../sampleContents/demo';
 import React, { useState } from 'react';
 import { cellPlugins } from '../../plugins/cellPlugins';

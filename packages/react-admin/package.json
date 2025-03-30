@@ -1,7 +1,11 @@
 {
-  "name": "@react-page/react-admin",
+  "name": "@promopixel/react-admin",
   "version": "0.0.0",
   "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "dist"
+  ],
   "module": "./lib-es/index.js",
   "sideEffects": false,
   "typings": "./lib/index.d.ts",
@@ -24,7 +28,7 @@
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.0",
-    "@react-page/editor": "0.0.0"
+    "@promopixel/editor": "0.0.0"
   },
   "devDependencies": {
     "react-admin": "^3.12.2",

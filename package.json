@@ -1,7 +1,7 @@
 {
   "private": true,
-  "author": "ORY GmbH",
-  "name": "react-page",
+  "author": "mjarmstrong / ORY GmbH",
+  "name": "promopixel",
   "license": "MIT",
   "workspaces": [
     "packages/editor",
@@ -69,7 +69,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "bootstrap": "lerna bootstrap",
     "build": "cross-env NODE_ENV=production lerna run build --stream",
-    "build:lib": "cross-env NODE_ENV=production lerna run build --ignore @react-page/examples --stream",
+    "build:lib": "cross-env NODE_ENV=production lerna run build --ignore @promopixel/examples --stream",
     "build:examples": "yarn --cwd examples build",
     "build:watch": "cross-env NODE_ENV=development lerna run build:watch --parallel",
     "clean": "lerna run clean",
@@ -127,7 +127,7 @@
   "version": "0.0.0-development",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-page/react-page.git"
+    "url": "https://github.com/mjarmstrong/promopixel.git"
   },
   "release": {
     "plugins": [
@@ -176,7 +176,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "yarn replace-in-file '###VERSION###' ${nextRelease.version} packages/*/lib*/*.js examples/build/**/*.js && git remote set-url origin https://git:$GH_TOKEN_DOCS@github.com/react-page/${nextRelease.channel || 'react-page.github.io'}.git",
+          "prepareCmd": "yarn replace-in-file '###VERSION###' ${nextRelease.version} packages/*/lib*/*.js examples/build/**/*.js && git remote set-url origin https://git:$GH_TOKEN_DOCS@github.com/mjarmstrong/${nextRelease.channel || 'promopixel.github.io'}.git",
           "publishCmd": "RELEASE_CHANNEL=${nextRelease.channel} yarn build:examples && (yarn gh-pages -t true -u 'github-actions-bot <support+actions@github.com>' -d examples/build -b main || true ) && yarn lerna publish --no-git-tag-version --no-git-reset --no-push --yes --dist-tag=${nextRelease.channel} --force-publish=* ${nextRelease.version}",
           "addChannel": "npm dist-tag add ${nextRelease.version}@${nextRelease.channel}"
         }

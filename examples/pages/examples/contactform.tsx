@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import type { Value } from '@react-page/editor';
-import Editor from '@react-page/editor';
+import type { Value } from '@promopixel/editor';
+import Editor from '@promopixel/editor';
 
-import slate from '@react-page/plugins-slate';
+import slate from '@promopixel/plugins-slate';
 
 import PageLayout from '../../components/PageLayout';
 import contactForm from '../../plugins/contactForm';

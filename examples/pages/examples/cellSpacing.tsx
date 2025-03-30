@@ -1,12 +1,12 @@
 import React from 'react';
-import type { Value } from '@react-page/editor';
+import type { Value } from '@promopixel/editor';
 import Editor, {
   AutoForm,
   AutoFields,
   makeUniformsSchema,
-} from '@react-page/editor';
-import slate from '@react-page/plugins-slate';
-import image from '@react-page/plugins-image';
+} from '@promopixel/editor';
+import slate from '@promopixel/plugins-slate';
+import image from '@promopixel/plugins-image';
 import customLayout from '../../plugins/customLayoutPluginWithCellSpacing';
 import PageLayout from '../../components/PageLayout';
 import { cellSpacingDemo } from '../../sampleContents/cellSpacing';
