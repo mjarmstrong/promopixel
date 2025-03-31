@@ -6,7 +6,7 @@ import type { CellPlugin, Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
 
 // The rich text area plugin
-import slate from '@promopixel/plugins-slate2';
+import slate from '@promopixel/plugins-slate';
 // image
 import image from '@promopixel/plugins-image';
 import PageLayout from '../../components/PageLayout';

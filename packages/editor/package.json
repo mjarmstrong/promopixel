@@ -1,6 +1,6 @@
 {
   "name": "@promopixel/editor",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "author": "Marco Wettstein",
   "license": "MIT",
   "main": "./lib/index.js",

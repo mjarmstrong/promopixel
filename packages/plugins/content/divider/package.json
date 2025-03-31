@@ -1,6 +1,6 @@
 {
   "name": "@promopixel/plugins-divider",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "main": "./lib/index.js",
   "files": [
     "lib",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@mui/icons-material": "^5.8.0",
-    "@promopixel/editor": "0.0.0"
+    "@promopixel/editor": "0.0.3"
   },
   "publishConfig": {
     "access": "public"

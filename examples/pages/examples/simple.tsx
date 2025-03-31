@@ -8,14 +8,14 @@ import Editor from '@promopixel/editor';
 // import '@promopixel/editor/lib/index.css';
 
 // The rich text area plugin
-import slate from '@promopixel/plugins-slate2';
+import slate from '@promopixel/plugins-slate';
 // image
 import image from '@promopixel/plugins-image';
 import PageLayout from '../../components/PageLayout';
 
 // Stylesheets for the rich text area plugin
 // uncomment this
-//import '@promopixel/plugins-slate2/lib/index.css';
+//import '@promopixel/plugins-slate/lib/index.css';
 
 // Stylesheets for the imagea plugin
 //import '@promopixel/plugins-image/lib/index.css';

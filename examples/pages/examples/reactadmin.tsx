@@ -12,7 +12,7 @@ import type { CellPlugin } from '@promopixel/editor';
 import slate, {
   DEFAULT_SLATE_PLUGIN_ID,
   pluginFactories,
-} from '@promopixel/plugins-slate2';
+} from '@promopixel/plugins-slate';
 import {
   RaReactPageInput,
   RaSelectReferenceInputField,

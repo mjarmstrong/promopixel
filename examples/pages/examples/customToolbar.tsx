@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { Options, Value } from '@promopixel/editor';
 import Editor from '@promopixel/editor';
-import slate from '@promopixel/plugins-slate2';
+import slate from '@promopixel/plugins-slate';
 import image from '@promopixel/plugins-image';
 import { ExampleCustomBottomToolbar } from '../../components/ExampleCustomBottomToolbar';
 import { Button } from '@mui/material';

@@ -47,7 +47,7 @@ The mantainers of this package have changed, the project has been renamed to `re
 | ory-editor-plugins-html5-video         | @promopixel/plugins-html5-video         |
 | ory-editor-plugins-image               | @promopixel/plugins-image               |
 | ory-editor-plugins-default-native      | @promopixel/plugins-default-native      |
-| ory-editor-plugins-slate               | @promopixel/plugins-slate2               |
+| ory-editor-plugins-slate               | @promopixel/plugins-slate               |
 | ory-editor-plugins-spacer              | @promopixel/plugins-spacer              |
 | ory-editor-plugins-video               | @promopixel/plugins-video               |
 | ory-editor-plugins-background          | @promopixel/plugins-background          |

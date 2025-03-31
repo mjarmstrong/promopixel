@@ -1,6 +1,6 @@
-# React-Page Editor
+# PromoPixel Editor
 
-This is ReactPage's main Component.
+This is PromoPixel's main Component, forked from ReactPage (react-page).
 
 Read the full readme here https://github.com/react-page/react-page
 

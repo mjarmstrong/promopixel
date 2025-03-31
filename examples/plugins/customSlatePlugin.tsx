@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { ColorPickerField } from '@promopixel/editor';
-import { pluginFactories } from '@promopixel/plugins-slate2';
+import { pluginFactories } from '@promopixel/plugins-slate';
 import React from 'react';
 
 export default pluginFactories.createComponentPlugin<{

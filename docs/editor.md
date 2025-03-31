@@ -7,8 +7,8 @@ import Editor, { Value } from '@promopixel/editor';
 import '@promopixel/editor/lib/index.css';
 
 // The rich text area plugin (Slate)
-import slate from '@promopixel/plugins-slate2';
-import '@promopixel/plugins-slate2/lib/index.css';
+import slate from '@promopixel/plugins-slate';
+import '@promopixel/plugins-slate/lib/index.css';
 
 // The image display plugin
 import image from '@promopixel/plugins-image';

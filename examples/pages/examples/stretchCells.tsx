@@ -1,7 +1,7 @@
 import React from 'react';
 import type { CellPlugin, Value } from '@promopixel/editor';
 import Editor, { createValue } from '@promopixel/editor';
-import slate from '@promopixel/plugins-slate2';
+import slate from '@promopixel/plugins-slate';
 
 import PageLayout from '../../components/PageLayout';
 
