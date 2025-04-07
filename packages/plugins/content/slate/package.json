@@ -1,6 +1,6 @@
 {
   "name": "@promopixel/plugins-slate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/index.js",
   "files": [
     "lib",
@@ -33,7 +33,7 @@
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.0",
     "@mui/icons-material": "^5.8.0",
-    "@promopixel/editor": "0.0.3",
+    "@promopixel/editor": "0.0.4",
     "@xmldom/xmldom": "^0.8.1",
     "cssstyle": "^2.3.0",
     "deep-rename-keys": "^0.2.1",
